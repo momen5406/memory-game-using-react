@@ -4,7 +4,10 @@ A basic card matching game built to learn React, React hooks, and CSS transition
 
 I built this while following [Net Ninja's React Memory Game tutorial on YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iQ7g2eoNXHCJBBBz40S_Lm), with a few tweaks to add TypeScript support.
 
+![Magic Match Game Screenshot](./screenshot.png)
+
 ## What it does
+
 - Shuffles a grid of 12 cards (6 matching pairs) on load or when clicking "New Game".
 - Allows the user to click and flip two cards at a time.
 - Checks if the two cards match.
@@ -14,6 +17,7 @@ I built this while following [Net Ninja's React Memory Game tutorial on YouTube]
 - Tracks and displays the number of turns taken.
 
 ## Tech Stack
+
 - **React 19** for state management and UI structure.
 - **TypeScript** for type checking.
 - **Vite** for the build tool and dev server.
@@ -34,6 +38,7 @@ npm run dev
 Then open `http://localhost:5173` in your browser.
 
 To run the linter or build the app:
+
 ```bash
 # Run ESLint
 npm run lint
@@ -43,6 +48,7 @@ npm run build
 ```
 
 ## Folder Structure
+
 - `public/img/` - Image assets for card fronts and the card cover back.
 - `src/components/Card.tsx` - Component for rendering an individual card and triggering clicks.
 - `src/interface/card.inteface.ts` - TypeScript interface defining the card object shape (`ICard`).
